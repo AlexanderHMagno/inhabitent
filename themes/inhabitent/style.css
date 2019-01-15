@@ -583,6 +583,11 @@ a {
   .widget select {
     max-width: 100%; }
 
+/* Contact widget. */
+p.city-contact-info {
+  padding-left: 20px;
+  margin-top: -25px; }
+
 /* Search widget. */
 .widget_search .search-submit {
   display: none; }
@@ -824,6 +829,25 @@ shop stuff archive.php
   .page-header-archive p {
     margin-bottom: 50px; }
 
+/*
+========================
+page - find us
+========================
+*/
+.page-contenedor-post {
+  padding-top: 20px !important; }
+  .page-contenedor-post h2 {
+    color: black;
+    font-size: 2.4rem;
+    text-transform: uppercase; }
+  .page-contenedor-post span.asteristc {
+    color: #d99054; }
+  .page-contenedor-post input[type=email], .page-contenedor-post input[type=password], .page-contenedor-post input[type=search], .page-contenedor-post input[type=text], .page-contenedor-post input[type=url], .page-contenedor-post textarea {
+    color: #666;
+    background-color: #f4f4f4;
+    border: 1px solid #e1e1e1;
+    border-radius: 0; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -912,7 +936,7 @@ Home photo
   height: 100vh; }
 
 .home-logo {
-  width: 200px; }
+  width: 275px; }
 
 /*========
 Shop Stuff
@@ -942,7 +966,8 @@ Inhabitent Journal
 =========*/
 .journal-stuff {
   max-width: 1120px;
-  margin: auto; }
+  margin: auto;
+  padding-bottom: 30px; }
   .journal-stuff h1 {
     text-align: center;
     margin-bottom: 40px;

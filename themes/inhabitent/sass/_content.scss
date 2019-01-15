@@ -318,3 +318,32 @@ shop stuff archive.php
 	}
 }
 
+
+
+/*
+========================
+page - find us
+========================
+*/
+
+
+.page-contenedor-post{
+	padding-top: 20px !important;
+
+	h2{
+		color:black;
+		font-size:2.4rem;
+		text-transform: uppercase;
+	}
+
+	span.asteristc{
+		color: $color-orange;
+	}
+
+	input[type=email], input[type=password], input[type=search], input[type=text], input[type=url], textarea {
+		color: #666;
+		background-color: #f4f4f4;
+		border: 1px solid #e1e1e1;
+		border-radius: 0;
+	}
+}

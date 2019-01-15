@@ -26,20 +26,29 @@ get_header(); ?>
 
 			<div class="contenedor">
 				 <?php the_content() ?>
+
+				 <footer class="entry-footer">
+		<?php red_starter_entry_footer(); ?>
+	</footer><!-- .entry-footer -->
 				 
-				 <p>POSTED IN →</p><p>TAGGED IN →</p>
+				
+
+			
 				 <a class="btn-journal" href=""><i class="fab fa-facebook-f" aria-hidden="true"></i>LIKE</a>
                                 <a class="btn-journal" href=""><i class="fab fa-twitter" aria-hidden="true"></i>TWEET</a>
                                 <a class="btn-journal" href=""><i class="fab fa-pinterest" aria-hidden="true"></i>PIN</a>
                      
 			</div>
 					
+			
+			
 					<?php the_post_navigation(); ?>
 
 					<?php
 						// If comments are open or we have at least one comment, load up the comment template.
 						if ( comments_open() || get_comments_number() ) :
 							comments_template();
+
 						endif;
 					?>
 
