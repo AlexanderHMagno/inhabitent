@@ -1,0 +1,30 @@
+
+//variables
+
+$color-green:#248A83;
+$color-orange:#d99054;
+$color-main: #ffffff;
+$color-purple: #2f1339;
+$color-yellow: #f0e4d1;
+$color-light-grey: #a1a1a1;
+$color-medium-grey: #808080;
+$color-black: #000;
+
+
+
+
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+

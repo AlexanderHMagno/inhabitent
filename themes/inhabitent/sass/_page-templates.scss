@@ -1,0 +1,292 @@
+/*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
+
+/* Front page */
+
+
+
+/*===========================================
+		    front-page
+==========================================*/
+
+
+/*========
+Home photo
+=========*/
+
+.home-photo{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377)), url("../../images/home-hero.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	//background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.home-logo{
+	width: 200px;
+}
+
+/*========
+Shop Stuff
+=========*/
+
+
+.shop-categories{
+	width: 24%;
+	border: 1px solid #e1e1e1;
+	text-align: center;
+	box-shadow: inset 0px 5px 0px #e1e1e1;
+	
+}
+
+.centered{
+	
+		padding:0px 10px;
+}
+
+
+
+.btn-shop{
+	padding:10px 20px;
+	color:$color-main;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px 10px 10px 10px;
+	text-decoration: none;
+	margin:auto;
+	background-color:$color-green;
+
+}
+
+/*========
+Inhabitent Journal
+=========*/
+
+.journal-stuff{
+	max-width: 1120px;
+	margin:auto;
+
+	h1{
+		text-align: center;
+		margin-bottom: 40px;
+		font-size: 2.4rem;
+    	font-weight: 400;
+    	margin: 3.75rem 0rem;
+	}
+
+	.archive-product-title{
+		font-weight: bold;
+		
+	}
+}
+
+.journal-contenedor{
+
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	
+}
+
+.journal-categories{
+	width: 32%;
+	border: 1px solid #e1e1e1;
+	
+}
+
+.journal-head{
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	box-shadow: 0px 5px 1px #e1e1e1;
+
+	img{
+		height: 100%;
+	}
+	
+}
+
+.journal-text{
+	margin-left:10px;
+	text-decoration: none;
+	box-shadow: inset 0px 5px 0px #e1e1e1;
+	padding-left:10px;
+
+
+	span:first-child { 
+		display: inline-block;
+		padding-top: 20px;
+		font-size: 0.75rem;
+	  }
+
+	  .box-journal-text-space{
+		  height: 60px;
+
+		  p{
+			  margin-top:0px;
+			  font-weight: bold;}
+	  }
+}
+
+.btn-journal{
+	padding:10px 20px;
+	border: 1px solid $color-black;
+	color: $color-black;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px 10px 10px 0px;
+	text-decoration: none;
+	
+}
+
+
+.green-color-title{
+	color:$color-green;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.2rem;
+
+
+
+}
+
+/*--========
+Lastest Adventures
+=========-*/
+
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: 250px;
+	grid-gap: 20px 20px;
+	
+
+	.subtitles-adventures{
+		width: 80%;
+		margin:auto;
+			
+		h3{
+			color:white;
+			margin-bottom:20px;
+			}
+
+		a{  color:white;
+			text-decoration: none;
+					}
+	}
+
+  }
+
+  .item1 {
+	grid-area: 1 / 1 / span 2 / span 2;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377)), url("../../images/adventure-photos/canoe-girl.jpg");
+	background-position: center;
+	background-size: cover;
+	h3{
+		font-size: 2rem;}
+  }
+  .item2 {
+	grid-area: 1 / 3 / span 1 / span 2;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377)), url("../../images/adventure-photos/beach-bonfire.jpg");
+	background-position: center;
+	background-size: cover;
+	h3{
+		font-size: 1.8rem;}
+  }
+
+  .item3 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377)), url("../../images/adventure-photos/mountain-hikers.jpg");
+	background-position: center;
+	background-size: cover;
+	h3{
+		font-size: 1.5rem;}
+  }
+
+  .item4 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377)), url("../../images/adventure-photos/night-sky.jpg");
+	background-position: center;
+	background-size: cover;
+	h3{
+		font-size: 1.5rem;}
+  }
+
+
+  .btn-adventure{
+	display: inline-block;  
+	margin-top:20px;
+	
+  }
+
+  .btn-white{
+	padding:10px 20px;
+	border: 1px solid $color-main;
+	color: $color-main;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px 10px 10px 0px;
+	text-decoration: none;
+	
+}
+ 
+
+  /*--========
+Footer
+=========-*/
+
+.footer-img{
+	
+	height: 300px;
+	background-image: url("../../images/dark-wood@2x.png");
+	background-position: center;
+	background-size: contain;
+	color:$color-main;
+	
+	}
+
+.location-footer-menu{
+	position: relative;
+}
+
+.site-footer__col-one{
+
+	position: absolute;
+	top:30px;
+	left:20px;
+
+}
+
+.site-footer__col-two{
+	position: absolute;
+	top:30px;
+	left:250px;
+}
+
+.site-footer__col-three{
+	position: absolute;
+	top:30px;
+	right: 80px;
+	p {
+		color: $color-main;
+	}
+    
+
+	img{
+
+		width: 260px;
+	}
+}
+
+.site-footer__col-fourth{
+
+	position: absolute;
+	top: 250px;
+	left: 40%; 
+  
+
+}

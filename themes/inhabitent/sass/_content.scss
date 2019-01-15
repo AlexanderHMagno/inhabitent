@@ -1,0 +1,320 @@
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+
+/* Posts and pages */
+
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 $base__space-unit;
+}
+
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: $base__space-unit 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 $base__space-unit;
+}
+
+/* Asides */
+
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+	display: none;
+}
+
+/* Comments */
+
+.comment-content a {
+	word-wrap: break-word;
+}
+.bypostauthor {
+	display: block;
+}
+
+
+
+/*
+========================
+Header
+========================
+*/
+.site-header1{
+	position: absolute;
+	top:30px;
+	width: 100%;
+}
+
+.site-header2{
+	background-color: hsla(0,0%,100%,.85);
+	position: fixed;
+	top:30px;
+	width: 100%;
+	border-bottom: 1px solid #e1e1e1;
+	z-index: 99;
+}
+
+.container-nav{
+	color:$color-main;
+	text-decoration: none;
+    background-color:transparent;
+	width: 1120px;
+	margin: auto;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+
+/*
+========================
+Post single-post.php
+========================
+*/
+
+.single-post-section{
+	margin-top:40px;
+	
+
+	h2{
+		color:$color-orange;
+	}
+}
+
+.foto-post{
+	position: relative;
+
+	img{
+
+		width: auto;
+	}
+}
+.contenedor-post{
+	width: 70%;
+	display: inline-block;
+	padding: 60px 30px 50px 0px;
+	border-right: 1px solid #e1e1e1;
+	i{ 
+		box-sizing: border-box;
+		width:20px;
+	   text-align: left;
+	}
+	   
+   
+}
+
+.contenedor-title{
+
+	position: absolute;
+	top:40px;
+	left:0px;
+	max-width: 75%;
+	background-color:$color-green;
+	
+	h2{
+		font-size:2rem;
+		padding: 0px 10px;
+		color:white;
+	font-weight: bold;
+	margin: 10px 10px;
+	}
+	
+}
+
+.contenedor-subtitle{
+
+	position: absolute;
+	width: 40%;
+	bottom:6px;
+	right:0px;
+	background-color:$color-green;
+	color:white;
+	font-weight: bold;
+	
+}
+.contenedor{
+
+	color: black; 
+	
+
+	p {
+		width: 95% }
+}
+
+
+.container{
+	width: 80%;
+}
+
+
+.foto{
+	width: 100px;
+}
+
+
+.sidebar-right{
+	position: absolute;
+    padding-top: 60px;
+    /* float: right; */
+    width: 25%;
+    top: 50px;
+	right: 80px;
+	
+	h2 {
+
+		color:black;
+	}
+	p span:first-child{
+		font-weight: 700;
+	}
+
+	a{
+		color:$color-green;
+		
+	}
+
+	ul{
+		padding-left:0px;
+		margin-left:0px;
+
+		li{
+			list-style-type: none;
+		}
+	}
+}
+
+
+/*===============================
+shop stuff archive-product.php
+====================================*/
+
+
+.margin-top{
+	margin-top:40px !important;
+}
+
+.top-product-field{
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	box-shadow: 0px 5px 1px #e1e1e1;
+
+	img{
+		height: 100%;
+	}
+}
+
+.bottom-product-field{
+	height: 50px;
+	margin-top:0px;
+	border: 1px solid #e1e1e1;
+	color:black;
+	text-align: center;
+	white-space: nowrap;
+	position: relative;
+p:first-child{ 
+	position: absolute;
+	background-color:white;
+	z-index: 99;
+	left: 10px;
+	 }
+
+p:last-child { position:absolute;
+	background-color: white;
+	z-index: 9999;
+	right: 10px;
+	top:0px;
+}
+
+}
+
+.dashed-line{
+	border-bottom: 1px dashed $color__border-abbr;
+	margin-bottom:40px !important;
+}
+
+.archive-product-menu{
+	width: 25%;
+	margin: -50px auto 40px auto;
+	
+	a{
+		color:$color-green;
+		text-decoration: none;
+	}
+}
+
+
+
+
+/*===============================
+single stuff single-product.php
+====================================*/
+
+.single-product{
+	margin-top:100px;
+	margin-bottom:180px
+}
+
+
+.left-product-field{
+	margin-bottom: 0px;
+    overflow: hidden;
+	height: 350px;
+
+	img{
+		height: 100%;
+	}
+}
+.right-product-field{
+	margin-left:50px;
+	height: 350px;
+	margin-top:0px;
+
+	h2{
+		color:$color-orange;
+		font-size:2rem;
+	}
+ i{ 
+	 box-sizing: border-box;
+	 width:20px;
+	text-align: left;}
+	
+}
+
+.subtitle-product{font-weight: bold;
+	font-size: 1.5rem;
+		}
+
+
+/*===============================
+shop stuff archive.php
+====================================*/
+
+.page-header-archive{
+	text-align:center;
+	h1{
+		margin-bottom:20px !important;
+	}
+
+	p{
+		margin-bottom: 50px;
+	}
+}
+

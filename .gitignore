@@ -1,3 +1,4 @@
+
 /*
 !.gitignore
 !plugins/
@@ -10,7 +11,7 @@ plugins/*
 !plugins/business-hours-widget/
 # Ignore everything in "themes" except the active theme. #
 themes/*
-!themes/wp_inhabitent/
+!themes/inhabitent/
 # Ignore packages #
 themes/inhabitent/node_modules/
 

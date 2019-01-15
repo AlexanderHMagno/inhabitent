@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+
+.widget {
+	margin: 0 0 $base__space-unit;
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+}
+
+/* Contact widget. */
+
+p.city-contact-info{
+	padding-left:20px;
+	margin-top:-25px;
+}
+
+/* Search widget. */
+.widget_search .search-submit {
+	display: none;
+}
+
