@@ -254,19 +254,30 @@ Footer
 	position: relative;
 }
 
-.site-footer__col-one{
+.site-footer__col-one, footer aside#contact-info-2{
 
 	position: absolute;
-	top:30px;
-	left:20px;
-
+    top: 29px;
+    left: 20px;
+	line-height: 22px;
+	
+	h2, h3{
+		color:$color-orange;
+	}
 }
 
-.site-footer__col-two{
+.site-footer__col-two, footer aside#business-hours-2{
 	position: absolute;
-	top:30px;
-	left:250px;
+    top: 30px;
+	left: 250px;
+	line-height: 22px;
+
+	h2, h3{
+		color:$color-orange;
+	}
 }
+
+
 
 .site-footer__col-three{
 	position: absolute;
@@ -290,4 +301,12 @@ Footer
 	left: 40%; 
   
 
+}
+
+
+//showing the sidebar when its only one
+
+
+footer aside#archives-2 {
+    display: none;
 }

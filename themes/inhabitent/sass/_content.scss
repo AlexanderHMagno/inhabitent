@@ -340,10 +340,47 @@ page - find us
 		color: $color-orange;
 	}
 
-	input[type=email], input[type=password], input[type=search], input[type=text], input[type=url], textarea {
-		color: #666;
-		background-color: #f4f4f4;
-		border: 1px solid #e1e1e1;
-		border-radius: 0;
+	
+}
+
+
+/*
+========================
+page - ABOUT
+========================
+*/
+
+
+
+
+.about-photo{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377)), url("../../images/about-hero.jpg");
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	//background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	
+
+	h1{
+		color:white;
+		font-size:3rem;
+		text-transform: uppercase;
+		text-align: center;
+	}
+}
+
+.about-wrap{
+	max-width: 800px !important;
+
+	h2{
+	text-align: center;
+		margin-bottom: 40px;
+		font-size: 2.4rem;
+    	font-weight: 400;
+		margin: 3.75rem 0rem;
 	}
 }

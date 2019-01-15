@@ -1,5 +1,3 @@
-
-
 <?php
 /**
  * The template for displaying all pages.
@@ -13,11 +11,9 @@ get_header(); ?>
 Main Picture
 =========-->
 
-<section>
+<section class="about-photo">
 
-<?php while ( have_posts() ) : the_post(); ?>
-
-<?php the_post_thumbnail("big");?>
+<h1 class="home-logo">About</h1>
 
 </section>
 
@@ -27,8 +23,8 @@ About
 =========-->
 
 <section class="journal-stuff about-wrap">
-   <?php the_title('<h1>','</h1>');?>
-
+   
+<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'page' ); ?>
 

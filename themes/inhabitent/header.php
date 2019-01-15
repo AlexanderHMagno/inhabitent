@@ -22,7 +22,9 @@
 
 	
 
-	<?php if ( is_front_page() ) :?>
+	<?php if ( is_front_page() || is_page( 'about' ) ) :?>
+
+	
 	<header class="site-header1">
 			<div class="container-nav">
 				<a href="<?php echo get_bloginfo('url');?>"><img class="logo-top" src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-tent-white.svg"></a>
@@ -37,6 +39,7 @@
 <?php else :?>
 <header class="site-header2">
 <div class="container-nav">
+
 
 				<a href="<?php echo get_bloginfo('url');?>"><img class="logo-top" src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-tent.svg"></a>
 				<div class="site-header__util">
