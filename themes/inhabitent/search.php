@@ -7,13 +7,18 @@
 
 get_header(); ?>
 
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<section class="single-post-section">
+	<div class="journal-stuff">
 
+	<div class="contenedor-post page-contenedor-post">
+	
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+		
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<h1 class="page-title"><?php printf( esc_html( 'Search Results for: %s' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+				<h1 class="page-title page-search-title"><?php printf( esc_html( 'Search Results for: %s' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
@@ -34,5 +39,16 @@ get_header(); ?>
 		</main><!-- #main -->
 	</section><!-- #primary -->
 
-<?php get_sidebar(); ?>
+	</div>
+		
+			
+		
+		<div class="sidebar-right">
+		<?php get_sidebar(); ?>
+		</div>		 
 <?php get_footer(); ?>
+
+
+
+
+

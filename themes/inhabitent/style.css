@@ -225,6 +225,48 @@ th {
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+@font-face {
+  font-family: '.';
+  src: url("295dc45759bce458eddc841fcd3a2732.eot");
+  src: url("295dc45759bce458eddc841fcd3a2732.eot?#iefix") format("embedded-opentype"), url("295dc45759bce458eddc841fcd3a2732.woff2") format("woff2"), url("295dc45759bce458eddc841fcd3a2732.woff") format("woff"), url("295dc45759bce458eddc841fcd3a2732.ttf") format("truetype"), url("295dc45759bce458eddc841fcd3a2732.svg#.") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url("../../sass/fonts/Merriweather-BoldItalic.eot");
+  src: url("../../sass/fonts/Merriweather-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../../sass/fonts/Merriweather-BoldItalic.woff2") format("woff2"), url("../../sass/fonts/Merriweather-BoldItalic.woff") format("woff"), url("../../sass/fonts/Merriweather-BoldItalic.ttf") format("truetype"), url("../../sass/fonts/Merriweather-BoldItalic.svg#Merriweather-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url("../../sass/fonts/Merriweather-Light.eot");
+  src: url("../../sass/fonts/Merriweather-Light.eot?#iefix") format("embedded-opentype"), url("../../sass/fonts/Merriweather-Light.woff2") format("woff2"), url("../../sass/fonts/Merriweather-Light.woff") format("woff"), url("../../sass/fonts/Merriweather-Light.ttf") format("truetype"), url("../../sass/fonts/Merriweather-Light.svg#Merriweather-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: '.';
+  src: url("4ad62d523b2ba631d1c595d0fc0493e3.eot");
+  src: url("4ad62d523b2ba631d1c595d0fc0493e3.eot?#iefix") format("embedded-opentype"), url("4ad62d523b2ba631d1c595d0fc0493e3.woff2") format("woff2"), url("4ad62d523b2ba631d1c595d0fc0493e3.woff") format("woff"), url("4ad62d523b2ba631d1c595d0fc0493e3.ttf") format("truetype"), url("4ad62d523b2ba631d1c595d0fc0493e3.svg#.") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url("../../sass/fonts/Merriweather-Bold.eot");
+  src: url("../../sass/fonts/Merriweather-Bold.eot?#iefix") format("embedded-opentype"), url("../../sass/fonts/Merriweather-Bold.woff2") format("woff2"), url("../../sass/fonts/Merriweather-Bold.woff") format("woff"), url("../../sass/fonts/Merriweather-Bold.ttf") format("truetype"), url("../../sass/fonts/Merriweather-Bold.svg#Merriweather-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url("../../sass/fonts/Merriweather-LightItalic.eot");
+  src: url("../../sass/fonts/Merriweather-LightItalic.eot?#iefix") format("embedded-opentype"), url("../../sass/fonts/Merriweather-LightItalic.woff2") format("woff2"), url("../../sass/fonts/Merriweather-LightItalic.woff") format("woff"), url("../../sass/fonts/Merriweather-LightItalic.ttf") format("truetype"), url("../../sass/fonts/Merriweather-LightItalic.svg#Merriweather-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -290,7 +332,8 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 16px;
-  font-size: 1rem; }
+  font-size: 1rem;
+  font-family: 'Merriweather', serif; }
 
 *,
 *:before,
@@ -301,7 +344,8 @@ html {
 
 body {
   background: #fff;
-  /* Fallback for when there is no custom background color defined. */ }
+  /* Fallback for when there is no custom background color defined. */
+  font-family: 'Merriweather', serif; }
 
 blockquote,
 q {
@@ -885,6 +929,22 @@ page - ABOUT
     font-size: 2.4rem;
     font-weight: 400;
     margin: 3.75rem 0rem; }
+
+/*
+========================
+Search
+========================
+*/
+a.search-subtitles {
+  color: #248A83; }
+
+h1.page-search-title {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 1rem; }
 
 /*--------------------------------------------------------------
 # Media

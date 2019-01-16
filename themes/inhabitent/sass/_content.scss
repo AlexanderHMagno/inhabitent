@@ -384,3 +384,29 @@ page - ABOUT
 		margin: 3.75rem 0rem;
 	}
 }
+
+
+
+/*
+========================
+Search
+========================
+*/
+
+
+a.search-subtitles{
+	color:$color-green;
+}
+
+
+h1.page-search-title {
+
+text-align: left;
+text-transform: uppercase;
+font-weight: bold;
+margin-top: 10px;
+
+border-bottom: 1px solid #e1e1e1;
+padding-bottom: 1rem;
+}
+

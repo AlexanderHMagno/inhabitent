@@ -5,6 +5,7 @@
 html {
   box-sizing: border-box;
   @include font-size(1);
+  font-family: 'Merriweather', serif;
   
 
 }
@@ -18,7 +19,7 @@ html {
 
 body {
   background: $color__background-body; /* Fallback for when there is no custom background color defined. */
-  
+  font-family: 'Merriweather', serif;
 }
 
 blockquote,
