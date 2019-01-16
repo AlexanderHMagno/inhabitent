@@ -47,7 +47,7 @@
 	</div><!-- .site-info -->
 				
 		<div class="site-footer__col-fourth">
-		<span> Copyright 2019 Inhabitent</span>
+		<span>COPYRIGHT © 2019 INHABITENT</span>
 		</div>
 </div>
 </footer>

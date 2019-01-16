@@ -1278,3 +1278,29 @@ Footer
 
 footer aside#archives-2 {
   display: none; }
+
+/*--------------------------------------------------------------
+# Error
+--------------------------------------------------------------*/
+.error-404 .journal-stuff {
+  text-align: left; }
+  .error-404 .journal-stuff h1 {
+    font-size: 2.4rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left; }
+  .error-404 .journal-stuff h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase; }
+  .error-404 .journal-stuff ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px; }
+    .error-404 .journal-stuff ul a {
+      color: #248A83; }
+  .error-404 .journal-stuff fieldset {
+    border: none;
+    margin: 0 0px;
+    padding: 0; }

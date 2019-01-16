@@ -28,6 +28,8 @@ get_header(); ?>
 				 <?php the_content() ?>
 
 				 <footer class="entry-footer">
+
+				 
 		<?php red_starter_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 				 
