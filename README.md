@@ -1,4 +1,4 @@
-Inhabitent - WP Projects
+#Inhabitent - WP Projects
 
 In this project we use the following language, databases, webservices and softwares: 
 
@@ -17,7 +17,7 @@ In this project we use the following language, databases, webservices and softwa
 
 What I Have learn with this project
 
-* * Set up WP 
+# Set up WP 
 
 When we think about creating a WP site its important to understand the LAMP tool, 
 which is the integration of LINUX,APACHE,MYsql and PHP, those tools powered up WP, and its 
@@ -34,12 +34,12 @@ once we have created the dataBase we have to install WP. And thats it Wordpress 
 your computer as a server. 
 
 
-* * Wordpress hierarchy
+* Wordpress hierarchy
 its the way that this CMS organize the template that will use to create the content, 
 in other words, depending on what type of content it's being shown WP will use a 
 differente template.
 
-* * Theme 
+* Theme 
 
 Word press can be accessed by two kind of user, a User that only wants to use it liker a CMS 
 and create his own webpage. In that case this user can select any of the free thousands that WP 
@@ -52,7 +52,7 @@ In conclusion a theme can be made or can be pickef between thousands of themes a
 These templates only are going to add a markup view of the webpage and they shouldnt add 
 any functionability to the web page. 
 
-* * Plugins
+* Plugins
 
 Plugins were created in order to add funcionability to the web pages and is in this section where developers
 should add functionailities. Additional, plugins can be created on installed from third parts. 
@@ -74,13 +74,13 @@ we create others:
 * contact info 
 
 
-* * Post
+* Post
 
  the posts will let you create the mainly tipe of content of your web, It's important to understand
  that WP was created to manage this kind of data. Through the loop of WP its possible to show the 
  whole content of the information saved on this DB. 
 
-* * Custom Post Type CPT
+* Custom Post Type CPT
 
 Its a post type that was created just for this particular project it could be reused in other projects, basically 
 we have to create a new data like this: 
@@ -97,7 +97,7 @@ we have to create a new data like this:
  Once we have done that we have to create the content en each CPT and we can also call this content 
  using the loop of WP.
 
-* * loop
+* loop
 
 The loop is the most important tool of WP it let us create content using our DATABASES, each loop can 
 be used to go through every data base to show the whole or just part of the content of that data Base. 
@@ -106,14 +106,14 @@ be used to go through every data base to show the whole or just part of the cont
 
 * Contain a static “Find Us” page with an embeded Google Map
 
-** embeded direclty from the google maps api. 
+* embeded direclty from the google maps api. 
 
  * and functioning contact form, styled appropriately (page.php)
 
  using the plugin contact form 7
 
 
-* * PHP
+* PHP
 
 Its a logical language program with let us interact with the dataBase, through several or thousand functions we c
 can create a dinamic website fed it by the the loop...
