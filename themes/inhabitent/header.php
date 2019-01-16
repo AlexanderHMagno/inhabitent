@@ -12,8 +12,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
-
+       
 
 	<?php wp_head(); ?>
 	</head>
@@ -31,11 +30,26 @@
 				<div class="site-header__util">
 				<nav class="main-navigation nav-flex">
 					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-					<a><span class="search-trigger js-search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span></li></a>
+					
+					
+					<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
+				
+					<label>
+					
+			<span class="screen-reader-text">Search for:</span>
+			<i class="fa fa-search search-trigger-white" aria-hidden="true"></i>
+       		 <input type="search" class="search-field" placeholder="TYPE AND HIT ENTER…" value="" name="s" title="Search for:" />
+				</label>
+		
+    		<input type="submit" class="search-submit" value="Search" />
+			
+		</form>
 				</nav>          
 				</div>
 			</div>
 	</header>
+
+
 <?php else :?>
 <header class="site-header2">
 <div class="container-nav">
@@ -45,7 +59,18 @@
 				<div class="site-header__util">
 				<nav class="main-navigation green-color">
 					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-					<a><span class="search-trigger js-search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span></li></a>
+					<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
+				
+					<label>
+					
+			<span class="screen-reader-text">Search for:</span>
+			<i class="fa fa-search search-trigger-green" aria-hidden="true"></i>
+       		 <input type="search" class="search-field" placeholder="TYPE AND HIT ENTER…" value="" name="s" title="Search for:" />
+				</label>
+		
+    		<input type="submit" class="search-submit" value="Search" />
+			
+		</form>
 				</nav>          
 				</div>
 			</div>

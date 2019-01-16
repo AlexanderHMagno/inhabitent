@@ -226,46 +226,46 @@ th {
 # Embedded Fonts
 --------------------------------------------------------------*/
 @font-face {
-  font-family: '.';
-  src: url("295dc45759bce458eddc841fcd3a2732.eot");
-  src: url("295dc45759bce458eddc841fcd3a2732.eot?#iefix") format("embedded-opentype"), url("295dc45759bce458eddc841fcd3a2732.woff2") format("woff2"), url("295dc45759bce458eddc841fcd3a2732.woff") format("woff"), url("295dc45759bce458eddc841fcd3a2732.ttf") format("truetype"), url("295dc45759bce458eddc841fcd3a2732.svg#.") format("svg");
-  font-weight: bold;
-  font-style: normal; }
-
-@font-face {
   font-family: 'Merriweather';
-  src: url("../../sass/fonts/Merriweather-BoldItalic.eot");
-  src: url("../../sass/fonts/Merriweather-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../../sass/fonts/Merriweather-BoldItalic.woff2") format("woff2"), url("../../sass/fonts/Merriweather-BoldItalic.woff") format("woff"), url("../../sass/fonts/Merriweather-BoldItalic.ttf") format("truetype"), url("../../sass/fonts/Merriweather-BoldItalic.svg#Merriweather-BoldItalic") format("svg");
+  src: url("../../fonts/Merriweather-BoldItalic.eot");
+  src: url("../../fonts/Merriweather-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-BoldItalic.woff2") format("woff2"), url("../../fonts/Merriweather-BoldItalic.woff") format("woff"), url("../../fonts/Merriweather-BoldItalic.ttf") format("truetype"), url("../../fonts/Merriweather-BoldItalic.svg#Merriweather-BoldItalic") format("svg");
   font-weight: bold;
   font-style: italic; }
 
 @font-face {
   font-family: 'Merriweather';
-  src: url("../../sass/fonts/Merriweather-Light.eot");
-  src: url("../../sass/fonts/Merriweather-Light.eot?#iefix") format("embedded-opentype"), url("../../sass/fonts/Merriweather-Light.woff2") format("woff2"), url("../../sass/fonts/Merriweather-Light.woff") format("woff"), url("../../sass/fonts/Merriweather-Light.ttf") format("truetype"), url("../../sass/fonts/Merriweather-Light.svg#Merriweather-Light") format("svg");
+  src: url("../../fonts/Merriweather-Light.eot");
+  src: url("../../fonts/Merriweather-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-Light.woff2") format("woff2"), url("../../fonts/Merriweather-Light.woff") format("woff"), url("../../fonts/Merriweather-Light.ttf") format("truetype"), url("../../fonts/Merriweather-Light.svg#Merriweather-Light") format("svg");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
-  font-family: '.';
-  src: url("4ad62d523b2ba631d1c595d0fc0493e3.eot");
-  src: url("4ad62d523b2ba631d1c595d0fc0493e3.eot?#iefix") format("embedded-opentype"), url("4ad62d523b2ba631d1c595d0fc0493e3.woff2") format("woff2"), url("4ad62d523b2ba631d1c595d0fc0493e3.woff") format("woff"), url("4ad62d523b2ba631d1c595d0fc0493e3.ttf") format("truetype"), url("4ad62d523b2ba631d1c595d0fc0493e3.svg#.") format("svg");
+  font-family: 'Merriweather';
+  src: url("../../fonts/Merriweather-LightItalic.eot");
+  src: url("../../fonts/Merriweather-LightItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-LightItalic.woff2") format("woff2"), url("../../fonts/Merriweather-LightItalic.woff") format("woff"), url("../../fonts/Merriweather-LightItalic.ttf") format("truetype"), url("../../fonts/Merriweather-LightItalic.svg#Merriweather-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url("../../fonts/Merriweather-Bold.eot");
+  src: url("../../fonts/Merriweather-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-Bold.woff2") format("woff2"), url("../../fonts/Merriweather-Bold.woff") format("woff"), url("../../fonts/Merriweather-Bold.ttf") format("truetype"), url("../../fonts/Merriweather-Bold.svg#Merriweather-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Novecento sans wide Normal';
+  src: url("../../fonts/Novecentosanswide-Normal.eot");
+  src: url("../../fonts/Novecentosanswide-Normal.eot?#iefix") format("embedded-opentype"), url("../../fonts/Novecentosanswide-Normal.woff2") format("woff2"), url("../../fonts/Novecentosanswide-Normal.woff") format("woff"), url("../../fonts/Novecentosanswide-Normal.ttf") format("truetype"), url("../../fonts/Novecentosanswide-Normal.svg#Novecentosanswide-Normal") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Merriweather';
-  src: url("../../sass/fonts/Merriweather-Bold.eot");
-  src: url("../../sass/fonts/Merriweather-Bold.eot?#iefix") format("embedded-opentype"), url("../../sass/fonts/Merriweather-Bold.woff2") format("woff2"), url("../../sass/fonts/Merriweather-Bold.woff") format("woff"), url("../../sass/fonts/Merriweather-Bold.ttf") format("truetype"), url("../../sass/fonts/Merriweather-Bold.svg#Merriweather-Bold") format("svg");
-  font-weight: bold;
+  font-family: 'Novecento sans wide';
+  src: url("../../fonts/Novecentosanswide-DemiBold.eot");
+  src: url("../../fonts/Novecentosanswide-DemiBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Novecentosanswide-DemiBold.woff2") format("woff2"), url("../../fonts/Novecentosanswide-DemiBold.woff") format("woff"), url("../../fonts/Novecentosanswide-DemiBold.ttf") format("truetype"), url("../../fonts/Novecentosanswide-DemiBold.svg#Novecentosanswide-DemiBold") format("svg");
+  font-weight: 600;
   font-style: normal; }
-
-@font-face {
-  font-family: 'Merriweather';
-  src: url("../../sass/fonts/Merriweather-LightItalic.eot");
-  src: url("../../sass/fonts/Merriweather-LightItalic.eot?#iefix") format("embedded-opentype"), url("../../sass/fonts/Merriweather-LightItalic.woff2") format("woff2"), url("../../sass/fonts/Merriweather-LightItalic.woff") format("woff"), url("../../sass/fonts/Merriweather-LightItalic.ttf") format("truetype"), url("../../sass/fonts/Merriweather-LightItalic.svg#Merriweather-LightItalic") format("svg");
-  font-weight: 300;
-  font-style: italic; }
 
 /*--------------------------------------------------------------
 # Typography
@@ -276,14 +276,15 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: sans-serif;
+  font-family: "Merriweather";
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  clear: both; }
+  clear: both;
+  font-family: "Novecento Sans Web"; }
 
 /* Copy */
 p {
@@ -332,8 +333,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 16px;
-  font-size: 1rem;
-  font-family: 'Merriweather', serif; }
+  font-size: 1rem; }
 
 *,
 *:before,
@@ -345,7 +345,7 @@ html {
 body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
-  font-family: 'Merriweather', serif; }
+  font-family: Merriweather, serif; }
 
 blockquote,
 q {
@@ -405,7 +405,7 @@ input[type="submit"] {
   border-radius: 0;
   color: #fff;
   cursor: pointer;
-  font-family: Novecento Sans Web,sans-serif;
+  font-family: "Novecento Sans Web";
   font-size: 14.4px;
   font-size: .9rem;
   line-height: 1;
@@ -690,6 +690,9 @@ Header
   position: absolute;
   top: 30px;
   width: 100%; }
+  .site-header1 :hover {
+    color: #f0e4d1;
+    text-shadow: 1px 1px 2px #323232; }
 
 .site-header2 {
   background-color: rgba(255, 255, 255, 0.85);
@@ -698,6 +701,8 @@ Header
   width: 100%;
   border-bottom: 1px solid #e1e1e1;
   z-index: 99; }
+  .site-header2 :hover {
+    color: #000; }
 
 .container-nav {
   color: #ffffff;
@@ -713,7 +718,41 @@ Header
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  font-family: Novecento Sans Web,sans-serif; }
+
+/*saerch bar*/
+.site-header1 .search-field, .site-header2 .search-field {
+  background-color: transparent;
+  border: none !important;
+  padding: 0 0 0 10px;
+  -webkit-transition: width .4s ease;
+  transition: width .4s ease;
+  width: 0px;
+  display: inline-block; }
+
+.site-header1 .search-field:focus, .site-header2 .search-field:focus {
+  background-color: transparent;
+  border: 2px solid #c3c0ab;
+  cursor: text;
+  outline: 0;
+  width: 230px;
+  color: #f0e4d1; }
+
+.site-header1 .search-form
+.search-submit, .site-header2 .search-form
+.search-submit {
+  display: none; }
+
+.search-trigger-white {
+  color: #ffffff;
+  margin-left: 15px;
+  cursor: pointer; }
+
+.search-trigger-green {
+  color: #248A83;
+  margin-left: 15px;
+  cursor: pointer; }
 
 /*
 ========================
