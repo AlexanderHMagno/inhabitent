@@ -1,0 +1,93 @@
+
+/*
+========================
+Main Menu
+========================
+*/
+.site-header1{
+	position: absolute;
+	top:30px;
+	width: 100%;
+
+
+
+	:hover{
+		color:$color-yellow;
+		text-shadow: 1px 1px 2px #323232}
+}
+
+.site-header2{
+	background-color: hsla(0,0%,100%,.85);
+	position: fixed;
+	top:30px;
+	width: 100%;
+	border-bottom: 1px solid #e1e1e1;
+	z-index: 99;
+
+	:hover{
+		color:$color-black;}
+}
+
+.container-nav{
+	color:$color-main;
+	text-decoration: none;
+    background-color:transparent;
+	width: 1120px;
+	margin: auto;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-family: Novecento Sans Web,sans-serif;
+
+   
+   
+}
+
+
+
+/*saerch bar*/
+
+ 
+.site-header1, .site-header2 {
+	
+	.search-field {
+    background-color: transparent;
+    border: none !important;
+    padding: 0 0 0 10px;
+    transition: width .4s ease;
+	width: 0px;
+	display: inline-block;
+	
+	}
+
+	.search-field:focus{
+		
+		background-color: transparent;
+		border: 2px solid #c3c0ab;
+		cursor: text;
+		outline: 0;
+		width: 230px;
+		color: $color-yellow;
+	}
+ 
+
+	.search-form
+	.search-submit { 
+	display:none;
+	}
+
+
+}
+
+.search-trigger-white{
+	color: $color-main;
+	margin-left: 15px;
+	cursor: pointer;
+}
+	
+.search-trigger-green{
+
+	color: $color-green;
+	margin-left: 15px;
+	cursor: pointer;
+}

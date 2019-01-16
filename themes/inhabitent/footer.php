@@ -7,13 +7,7 @@
 
 ?>
 
-
-
-
-			</div><!-- #content -->
-
-
-
+		</div><!-- #content -->
 
 
 <footer class="footer-img">

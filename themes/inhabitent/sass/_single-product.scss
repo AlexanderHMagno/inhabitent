@@ -1,0 +1,41 @@
+
+
+/*===============================
+single stuff single-product.php
+====================================*/
+
+.single-product{
+	margin-top:100px;
+	margin-bottom:180px
+}
+
+
+.left-product-field{
+	margin-bottom: 0px;
+    overflow: hidden;
+	height: 350px;
+
+	img{
+		height: 100%;
+	}
+}
+.right-product-field{
+	margin-left:50px;
+	height: 350px;
+	margin-top:0px;
+
+	h2{
+		color:$color-orange;
+		font-size:2rem;
+	}
+ i{ 
+	 box-sizing: border-box;
+	 width:20px;
+	text-align: left;}
+	
+}
+
+.subtitle-product{font-weight: bold;
+	font-size: 1.5rem;
+		}
+
