@@ -24,58 +24,53 @@
 	<?php if ( is_front_page() || is_page( 'about' ) ) :?>
 
 	
-	<header class="site-header1">
-			<div class="container-nav">
-				<a href="<?php echo get_bloginfo('url');?>"><img class="logo-top" src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-tent-white.svg"></a>
-				<div class="site-header__util">
-				<nav class="main-navigation nav-flex">
-					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-					
-					
-					<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
-				
-					<label>
-					
-			<span class="screen-reader-text">Search for:</span>
-			<i class="fa fa-search search-trigger-white" aria-hidden="true"></i>
-       		 <input type="search" class="search-field" placeholder="TYPE AND HIT ENTER…" value="" name="s" title="Search for:" />
-				</label>
-		
-    		<input type="submit" class="search-submit" value="Search" />
+			<header class="site-header1">
+					<div class="container-nav">
+						<a href="<?php echo get_bloginfo('url');?>"><img class="logo-top" src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-tent-white.svg"></a>
+						<div class="site-header__util">
+							<nav class="main-navigation nav-flex">
+								<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+										
+								<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
+									<label>
+									
+									<span class="screen-reader-text">Search for:</span>
+									<i class="fa fa-search search-trigger-white" aria-hidden="true"></i>
+									<input type="search" class="search-field" placeholder="TYPE AND HIT ENTER…" value="" name="s" title="Search for:" />
+									</label>
+						
+									<input type="submit" class="search-submit" value="Search" />
+						
+								</form>
+							</nav>          
+						</div>
+					</div>
+			</header>
+
+
+	<?php else :?>
 			
-		</form>
-				</nav>          
-				</div>
-			</div>
-	</header>
-
-
-<?php else :?>
-<header class="site-header2">
-<div class="container-nav">
-
-
-				<a href="<?php echo get_bloginfo('url');?>"><img class="logo-top" src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-tent.svg"></a>
-				<div class="site-header__util">
-				<nav class="main-navigation green-color">
-					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-					<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
+			<header class="site-header2">
+					<div class="container-nav">
+							<a href="<?php echo get_bloginfo('url');?>"><img class="logo-top" src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-tent.svg"></a>
+							<div class="site-header__util">
+								<nav class="main-navigation green-color">
+									<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+									<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
 				
-					<label>
-					
-			<span class="screen-reader-text">Search for:</span>
-			<i class="fa fa-search search-trigger-green" aria-hidden="true"></i>
-       		 <input type="search" class="search-field" placeholder="TYPE AND HIT ENTER…" value="" name="s" title="Search for:" />
-				</label>
-		
-    		<input type="submit" class="search-submit" value="Search" />
-			
-		</form>
-				</nav>          
-				</div>
-			</div>
-</header>
-<?php endif; ?>
+										<label><span class="screen-reader-text">Search for:</span>
+											<i class="fa fa-search search-trigger-green" aria-hidden="true"></i>
+											<input type="search" class="search-field" placeholder="TYPE AND HIT ENTER…" value="" name="s" title="Search for:" />
+										</label>
+							
+										<input type="submit" class="search-submit" value="Search" />
+								
+									</form>
+								</nav>          
+							</div>
+					</div>	
+			</header>
+	<?php endif; ?>
 
 
     

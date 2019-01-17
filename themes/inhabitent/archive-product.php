@@ -39,30 +39,32 @@ get_header(); ?>
 <!--posts-->
 
 <section class="journal-stuff">
-<?php 
-        $args = array(
-            'post_type'         => 'product', 
-            'order'             => 'ASC', 
-            'offset'            => '0',
-            'posts_per_page'     => -1);
-        $product_posts = get_posts($args);
-        ?>
-   <div class="grid-container">
-        <?php foreach ( $product_posts as $post) : setup_postdata( $post);?>
-        <a href="<?php the_permalink()?>"><div class="border-product-field">
-            <div class="top-product-field">
-                    <?php the_post_thumbnail("medium");?>
-            </div>
-            <div class="bottom-product-field">
-                    <p><?php the_title();?></p>
-                    <p>..........................</p>
-                    <p><?php echo CFS()->get( 'price' );;?></p>
-            </div>
-        </div></a>
-        <?php endforeach; // End of the loop. ?>
-        
-		
-	</div>
+                <?php 
+                        $args = array(
+                        'post_type'         => 'product', 
+                        'order'             => 'ASC', 
+                        'offset'            => '0',
+                        'posts_per_page'     => -1);
+                        $product_posts = get_posts($args);
+                        ?>
+                <div class="grid-container">
+                        <?php foreach ( $product_posts as $post) : setup_postdata( $post);?>
+                        <a href="<?php the_permalink()?>">
+                        
+                        <div class="border-product-field">
+                                <div class="top-product-field">
+                                        <?php the_post_thumbnail("medium");?>
+                                </div>
+                                 <div class="bottom-product-field">
+                                        <p><?php the_title();?></p>
+                                        <p>..........................</p>
+                                        <p><?php echo CFS()->get( 'price' );;?></p>
+                                 </div>
+                        </div></a>
+                        <?php endforeach; // End of the loop. ?>
+                        
+                                
+                </div>
 
 </section>
 

@@ -19,34 +19,21 @@ get_header(); ?>
 				</div>
 			
 				<div class="contenedor-subtitle">
-				<?php the_date() ?><span> by </span>  <?php the_author() ?>
-				<?php echo get_comments_number() ?>
-					</div>
+					<?php the_date() ?><span> by </span>  <?php the_author() ?>
+					<?php echo get_comments_number() ?>
+				</div>
 			</div>
 
 			<div class="contenedor">
 				 <?php the_content() ?>
-
-				 <footer class="entry-footer">
-
-				 
-		<?php red_starter_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-				 
 				
-
-			
 				 <a class="btn-journal" href=""><i class="fab fa-facebook-f" aria-hidden="true"></i>LIKE</a>
-                                <a class="btn-journal" href=""><i class="fab fa-twitter" aria-hidden="true"></i>TWEET</a>
-                                <a class="btn-journal" href=""><i class="fab fa-pinterest" aria-hidden="true"></i>PIN</a>
+                 <a class="btn-journal" href=""><i class="fab fa-twitter" aria-hidden="true"></i>TWEET</a>
+                 <a class="btn-journal" href=""><i class="fab fa-pinterest" aria-hidden="true"></i>PIN</a>
                      
 			</div>
-					
-			
-			
-					<?php the_post_navigation(); ?>
-
-					<?php
+		    <?php the_post_navigation(); ?>
+			<?php
 						// If comments are open or we have at least one comment, load up the comment template.
 						if ( comments_open() || get_comments_number() ) :
 							comments_template();
@@ -57,16 +44,13 @@ get_header(); ?>
 				<?php endwhile; // End of the loop. ?>
 					
 
-			</div>
-		
-			
-		
+		</div>
 		<div class="sidebar-right">
-		<?php get_sidebar(); ?>
+			<?php get_sidebar(); ?>
 		</div>		 
 	</div>
 
-	</div>	
+</div>	
 <!--< get_template_part( 'template-parts/content', 'single' ); ?>-->
            
            

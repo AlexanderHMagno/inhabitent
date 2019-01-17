@@ -14,6 +14,7 @@ get_header(); ?>
                     <?php while ( have_posts() ) : the_post(); ?>
 
                     <div class="contenedor-post">
+                      
                         <div class="foto-post">
                             <?php the_post_thumbnail("big");?>
                             
@@ -33,24 +34,15 @@ get_header(); ?>
                             <a class="btn-journal" href="<?php the_permalink() ;?>">Read more →</a>
                         </div>
                     </div>
-                <?php endwhile; // End of the loop. ?>
+                    <?php endwhile; // End of the loop. ?>
+         		                   
+                    <div class="sidebar-right">
+                        <?php get_sidebar(); ?>
+                    </div></div>		 
+	        </div>
 
-            
-            
-		
-			
-		
-		<div class="sidebar-right">
-		<?php get_sidebar(); ?>
-		
-            </div></div>		 
-	</div>
 
-	</div>	
 <!--< get_template_part( 'template-parts/content', 'single' ); ?>-->
-           
-           
-
 </section>
 
 <?php get_footer(); ?>
