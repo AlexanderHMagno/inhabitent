@@ -20,7 +20,6 @@ Home photo
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	//background-attachment: fixed;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -38,9 +37,15 @@ Shop Stuff
 
 .shop-categories{
 	width: 24%;
-	border: 1px solid #e1e1e1;
+	border: 1px solid $color-beige;
 	text-align: center;
-	box-shadow: inset 0px 5px 0px #e1e1e1;
+	box-shadow: inset 0px 5px 0px $color-beige;
+	}
+
+.shop-categories:hover{
+	
+		border-color:$color-orange;
+		box-shadow: inset 0px 5px 0px $color-orange;
 	
 }
 
@@ -52,13 +57,9 @@ Shop Stuff
 
 
 .btn-shop{
-	padding:10px 20px;
+
+	@include basic-btn;
 	color:$color-main;
-	text-transform: uppercase;
-	text-align: center;
-	margin: 0px 10px 10px 10px;
-	text-decoration: none;
-	margin:auto;
 	background-color:$color-green;
 
 }
@@ -96,7 +97,7 @@ Inhabitent Journal
 
 .journal-categories{
 	width: 32%;
-	border: 1px solid #e1e1e1;
+	border: 1px solid $color-beige;
 	
 }
 
@@ -104,7 +105,7 @@ Inhabitent Journal
 	width: 100%;
 	height: 250px;
 	overflow: hidden;
-	box-shadow: 0px 5px 1px #e1e1e1;
+	box-shadow: 0px 5px 1px $color-beige;
 
 	img{
 		height: 100%;
@@ -115,7 +116,7 @@ Inhabitent Journal
 .journal-text{
 	margin-left:10px;
 	text-decoration: none;
-	box-shadow: inset 0px 5px 0px #e1e1e1;
+	box-shadow: inset 0px 5px 0px $color-beige;
 	padding-left:10px;
 
 
@@ -135,14 +136,23 @@ Inhabitent Journal
 }
 
 .btn-journal{
-	padding:10px 20px;
+	@include basic-btn;
 	border: 1px solid $color-black;
 	color: $color-black;
-	text-transform: uppercase;
-	text-align: center;
-	margin: 0px 10px 10px 0px;
-	text-decoration: none;
 	
+	:hover{
+		background-color:$color-green;
+		color:$color-main;
+	}
+
+	
+	
+}
+
+.btn-journal:hover{
+	background-color:$color-green;
+	color:$color-main;
+	border-color: $color-green;
 }
 
 
@@ -173,11 +183,11 @@ Lastest Adventures
 		margin:auto;
 			
 		h3{
-			color:white;
+			color:$color-main;
 			margin-bottom:20px;
 			}
 
-		a{  color:white;
+		a{  color:$color-main;
 			text-decoration: none;
 					}
 	}
@@ -187,44 +197,63 @@ Lastest Adventures
   .item1 {
 	grid-area: 1 / 1 / span 2 / span 2;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377)), url("../../images/adventure-photos/canoe-girl.jpg");
-	background-position: center;
-	background-size: cover;
+	@include grid-basic;
 	h3{
 		font-size: 3rem;
-    letter-spacing: 2px;
-	line-height: 3rem;
+    	line-height: 3rem;
 }
   }
   .item2 {
 	grid-area: 1 / 3 / span 1 / span 2;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377)), url("../../images/adventure-photos/beach-bonfire.jpg");
-	background-position: center;
-	background-size: cover;
+	@include grid-basic;
 	h3{
 		font-size: 2.5rem;
-    letter-spacing: 2px;
-	line-height: 2.5rem;
+    	line-height: 2.5rem;
 }
   }
 
   .item3 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377)), url("../../images/adventure-photos/mountain-hikers.jpg");
-	background-position: center;
-	background-size: cover;
+	@include grid-basic;
 	h3{
 		font-size: 1.8rem;
-    letter-spacing: 2px;
-	line-height: 2rem;}
+		line-height: 2rem;
+	}
   }
 
   .item4 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377)), url("../../images/adventure-photos/night-sky.jpg");
-	background-position: center;
-	background-size: cover;
+	@include grid-basic;
 	h3{
 		font-size: 1.8rem;
-    letter-spacing: 2px;
-	line-height: 2rem;}
+	    line-height: 2rem;}
+  }
+
+
+  .item5 {
+	grid-area: 1 / 1 / span 2 / span 2;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377)), url("../../images/adventure-photos/canoe-girl.jpg");
+	@include grid-4;
+
+  }
+
+  .item6 {
+	grid-area: 1 / 3 / span 2 / span 2;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377)), url("../../images/adventure-photos/beach-bonfire.jpg");
+	@include grid-4;
+  }
+
+  .item7 {
+	grid-area: 3 / 1 / span 2 / span 2;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377)), url("../../images/adventure-photos/mountain-hikers.jpg");
+	@include grid-4;
+  }
+
+  .item8 {
+	grid-area: 3 / 3 / span 2 / span 2;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377)), url("../../images/adventure-photos/night-sky.jpg");
+	@include grid-4;
   }
 
 
@@ -235,14 +264,11 @@ Lastest Adventures
   }
 
   .btn-white{
-	padding:10px 20px;
+
+	@include basic-btn;
 	border: 1px solid $color-main;
 	color: $color-main;
-	text-transform: uppercase;
-	text-align: center;
-	margin: 0px 10px 10px 0px;
-	text-decoration: none;
-	
+		
 }
  
 

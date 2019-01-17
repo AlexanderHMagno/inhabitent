@@ -27,4 +27,40 @@ $color-black: #000;
 }
 
 
+//adventure position 
+
+@mixin grid-4{
+
+	background-position: center;
+	background-size: cover;
+	h3{
+		font-size: 3rem;
+    letter-spacing: 2px;
+	line-height: 3rem;
+	}
+}
+
+@mixin grid-basic{
+	background-position: center;
+	background-size: cover;
+    h3{
+		letter-spacing: 2px;
+	}
+
+}
+
+
+
+//btn
+
+@mixin basic-btn{
+	padding:10px 20px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px 10px 10px 0px;
+	text-decoration: none;
+	font-size:.9rem;
+	font-family:$font__titles;
+
+}
 
