@@ -11,6 +11,7 @@ plugins/*
 !plugins/business-hours-widget/
 !plugins/contact-info-widget/
 !plugins/contact-form-7/
+!plugins/red-functionality-master
 
 # Ignore everything in "themes" except the active theme. #
 themes/*
